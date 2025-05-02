@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100; 0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
   font-family: SFProDisplay;
   font-display: swap;
@@ -365,7 +365,7 @@ h6 {
   color: var(--bg-primary);
   background-color: var(--bg-secondary)
 }
-.section_bottom {
+.section.section_bottom {
   padding-top: 0
 }
 .title {
@@ -373,10 +373,10 @@ h6 {
   font-weight: 600;
   letter-spacing: -.02em
 }
-.title_h2 {
+.title.title_h2 {
   letter-spacing: -.01em
 }
-.title_h3 {
+.title.title_h3 {
   font-weight: 500;
   letter-spacing: -.01em
 }
@@ -398,14 +398,14 @@ h6 {
   line-height: 1.3;
   font-weight: 300
 }
-.text_xl {
+.text.text_xl {
   opacity: .8
 }
-.text_md {
+.text.text_md {
   line-height: 1.3;
   font-weight: 300
 }
-.text_regular {
+.text.text_regular {
   font-weight: 400
 }
 .text a {
@@ -1088,7 +1088,7 @@ h6 {
   background-color: var(--accent)
 }
 .join-item:first-child .join-item__list li:before {
-  background: url(img/icons/check_w.svg) no-repeat center/contain
+  background: url(../img/icons/check_w.svg) no-repeat center/contain
 }
 .join-item:last-child {
   color: var(--black);
@@ -1106,7 +1106,7 @@ h6 {
   height: 2.5rem;
   top: 0;
   left: 0;
-  background: url(img/icons/check.svg) no-repeat center/contain
+  background: url(../img/icons/check.svg) no-repeat center/contain
 }
 .future__text {
   opacity: .8
@@ -1463,7 +1463,7 @@ h6 {
     width: 2.5625rem
   }
   .service__top svg {
-    height: 2.5625rem
+    height: 3.1875rem
   }
   .case__title:not(:last-child) {
     margin-bottom: 1.25rem
@@ -1622,10 +1622,10 @@ h6 {
   .title {
     font-size: 5.625rem
   }
-  .title_h2 {
+  .title.title_h2 {
     font-size: 4rem
   }
-  .title_h3 {
+  .title.title_h3 {
     font-size: 2.5rem
   }
   .subtitle {
@@ -1634,13 +1634,13 @@ h6 {
   .text {
     font-size: 2rem
   }
-  .text_xl {
+  .text.text_xl {
     font-size: 2.5rem
   }
-  .text_md {
+  .text.text_md {
     font-size: 1.5rem
   }
-  .text_sm {
+  .text.text_sm {
     font-size: 1.125rem
   }
   .not-found__title {
@@ -1804,19 +1804,19 @@ h6 {
   .title {
     font-size: 3.875rem
   }
-  .title_h2 {
+  .title.title_h2 {
     font-size: 2.75rem
   }
-  .title_h3 {
+  .title.title_h3 {
     font-size: 1.75rem
   }
   .text {
     font-size: 1.375rem
   }
-  .text_xl {
+  .text.text_xl {
     font-size: 1.75rem
   }
-  .text_md {
+  .text.text_md {
     font-size: 1.0625rem
   }
   .footer__top {
@@ -1893,7 +1893,7 @@ h6 {
   .subtitle {
     font-size: 2.125rem
   }
-  .text_sm {
+  .text.text_sm {
     font-size: .875rem
   }
   .not-found__title {
@@ -2448,10 +2448,10 @@ h6 {
     font-size: 1rem
   }
   .service__top svg {
-    width: 3.1875rem
+    width: 1.625rem
   }
   .service__top svg {
-    height: 2.1875rem
+    height: 2rem
   }
   .case__title:not(:last-child) {
     margin-bottom: .625rem
@@ -2690,10 +2690,10 @@ h6 {
     font-size: clamp(1rem ,.875rem + .5555555556vw ,1.5rem)
   }
   .service__top svg {
-    width: clamp(2.5625rem ,3.34375rem + -.6944444444vw ,3.1875rem)
+    width: clamp(1.625rem ,1.390625rem + 1.0416666667vw ,2.5625rem)
   }
   .service__top svg {
-    height: clamp(2.1875rem ,2.09375rem + .4166666667vw ,2.5625rem)
+    height: clamp(2rem ,1.703125rem + 1.3194444444vw ,3.1875rem)
   }
   .case__title:not(:last-child) {
     margin-bottom: clamp(.625rem ,.46875rem + .6944444444vw ,1.25rem)
@@ -2828,7 +2828,7 @@ h6 {
   .subtitle {
     font-size: clamp(2.125rem ,-1.2386363636rem + 3.6363636364vw ,3.125rem)
   }
-  .text_sm {
+  .text.text_sm {
     font-size: clamp(.875rem ,.0340909091rem + .9090909091vw ,1.125rem)
   }
   .not-found__title {
@@ -2971,10 +2971,10 @@ h6 {
   .title {
     font-size: clamp(2.4375rem ,1.9583244597rem + 2.1296690679vw ,3.875rem)
   }
-  .title_h2 {
+  .title.title_h2 {
     font-size: clamp(1.75rem ,1.4166604937rem + 1.4815089168vw ,2.75rem)
   }
-  .title_h3 {
+  .title.title_h3 {
     font-size: clamp(1.5rem ,1.4166651234rem + .3703772292vw ,1.75rem)
   }
   .title.case-detail__title {
@@ -2986,7 +2986,7 @@ h6 {
   .text {
     font-size: clamp(1.125rem ,1.0416651234rem + .3703772292vw ,1.375rem)
   }
-  .text_md {
+  .text.text_md {
     font-size: clamp(.875rem ,.8124988426rem + .2777829219vw ,1.0625rem)
   }
   .not-found__title {
@@ -3090,19 +3090,19 @@ h6 {
   .title {
     font-size: clamp(3.875rem ,-1.375rem + 5.8333333333vw ,5.625rem)
   }
-  .title_h2 {
+  .title.title_h2 {
     font-size: clamp(2.75rem ,-1rem + 4.1666666667vw ,4rem)
   }
-  .title_h3 {
+  .title.title_h3 {
     font-size: clamp(1.75rem ,-.5rem + 2.5vw ,2.5rem)
   }
   .text {
     font-size: clamp(1.375rem ,-.5rem + 2.0833333333vw ,2rem)
   }
-  .text_xl {
+  .text.text_xl {
     font-size: clamp(1.75rem ,-.5rem + 2.5vw ,2.5rem)
   }
-  .text_md {
+  .text.text_md {
     font-size: clamp(1.0625rem ,-.25rem + 1.4583333333vw ,1.5rem)
   }
   .footer__top {
@@ -3125,7 +3125,7 @@ h6 {
   }
 }
 @media (min-width:30em)and (max-width:89.99875em) {
-  .text_xl {
+  .text.text_xl {
     font-size: clamp(1.5rem ,1.3749973958rem + .4166753474vw ,1.75rem)
   }
 }
