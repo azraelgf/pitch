@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home Page</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250502083436">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--	 <style>body{opacity: 0;}</style>-->
+	<style>
+		/* Начальное состояние */
+		body {
+			opacity: 0;
+			transition: opacity 0.5s ease-in-out;
+		}
+
+		/* Класс, добавляемый после загрузки */
+		html.loaded body {
+			opacity: 1;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header_main">
+			<div class="header__container">
+				<a href="/" class="header__logo logo"><img src="img/logo.webp" alt="Logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Projects</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a href="" class="actions-header__link">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#phone"></use>
+						</svg>
+						Call us
+					</a>
+					<a href="" class="actions-header__link">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#mail"></use>
+						</svg>
+						Send an email
+					</a>
+					<a href="" class="actions-header__link _one">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#linkin"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="hero" style="background-image: url('img/main/hero-bg.webp');">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title">
+							<span class="wow animate__fadeInLeft">WELCOME</span>
+							<span class="wow wow animate__fadeInRight">TO PITCH SPORTS</span>
+						</h1>
+						<div class="hero__text">Where Sports & Brands Unite</div>
+					</div>
+				</div>
+			</section>
+			<section class="about-block section">
+				<div class="about-block__container">
+					<div class="about-block__inner">
+						<h2 class="about-block__title title wow animate__fadeIn">
+							We believe in the power of sports <i>to connect people, brands, and emotions</i>
+						</h2>
+						<div class="about-block__info">
+							<div class="about-block__text text">With over 10 years of experience in sports marketing, we bring
+								creativity, strategy, and flawless execution to the world’s biggest events. Having collaborated
+								with
+								30+ global brands and engaged with millions of fans worldwide, we specialize in delivering VIP
+								hospitality and immersive brand activations that make every moment unforgettable.
+							</div>
+							<a href="" class="about-block__btn button">See more</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="benefits section section_bottom">
+				<div class="benefits__container">
+					<h3 class="benefits__title title title_h2 wow animate__fadeIn">What makes us different?</h3>
+					<div class="benefits__items">
+						<div class="benefit">
+							<div class="benefit__info" style="background-color: var(--bg-third);">
+								<div class="benefit__title title wow animate__fadeIn">Proven success</div>
+								<div class="benefit__text text">We’ve worked with some of the world’s biggest brands,
+									creating
+									memorable activations that engage millions. Our campaigns drive real impact, combining
+									creative ideas with precise execution to leave lasting impressions and build strong
+									connections with fans.
+								</div>
+							</div>
+							<div class="benefit__img">
+								<img src="img/main/benefits/01.webp" alt="Image" class="ibg">
+							</div>
+						</div>
+						<div class="benefit">
+							<div class="benefit__info" style="background-color: var(--accent);">
+								<div class="benefit__title title">Global experience, local impact</div>
+								<div class="benefit__text text">We combine international know-how with strong local
+									partnerships and on-the-ground hiring. At every event, we aim to leave a legacy -
+									sharing knowledge and helping develop local talent for the future.
+								</div>
+							</div>
+							<div class="benefit__img">
+								<img src="img/main/benefits/02.webp" alt="Image" class="ibg">
+							</div>
+						</div>
+						<div class="benefit">
+							<div class="benefit__info" style="background-color: var(--bg-secondary);">
+								<div class="benefit__title title">Exclusive access</div>
+								<div class="benefit__text text">
+									Through our top-tier partnerships, we offer unrivaled access to premium hospitality, VIP
+									experiences, and behind-the-scenes moments. From private events to exclusive access
+									points, we ensure you get the most exceptional experience at every turn.
+								</div>
+							</div>
+							<div class="benefit__img">
+								<img src="img/main/benefits/03.webp" alt="Image" class="ibg">
+							</div>
+						</div>
+						<div class="benefit">
+							<div class="benefit__info" style="background-color: var(--primary);">
+								<div class="benefit__title title">Tailored approach</div>
+								<div class="benefit__text text">
+									Every brand is unique, and so are our strategies. We design personalized plans that
+									align with your specific goals and deliver tangible, measurable outcomes. By focusing on
+									what makes your brand stand out, we ensure every decision drives real impact.
+								</div>
+							</div>
+							<div class="benefit__img">
+								<img src="img/main/benefits/04.webp" alt="Image" class="ibg">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="services section section_bottom">
+				<div class="services__container">
+					<h2 class="services__title title title_h2 wow animate__fadeIn">From concept to celebration – we make it happen</h2>
+					<div class="services__items">
+						<a href="" class="service">
+							<div class="service__top">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#dec"></use>
+								</svg>
+							</div>
+							<div class="service__bottom">
+								<h3 class="service__title title title_h3">Event management</h3>
+								<div class="service__text text text_md">Seamless planning, flawless execution. From
+									logistics to live moments, we handle it all - so you can focus on the experience.
+								</div>
+							</div>
+						</a>
+						<a href="" class="service">
+							<div class="service__top">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#dec"></use>
+								</svg>
+							</div>
+							<div class="service__bottom">
+								<h3 class="service__title title title_h3">Brand activation</h3>
+								<div class="service__text text text_md">
+									Transforming audiences into engaged fans with immersive, shareable, and unforgettable
+									experiences.
+								</div>
+							</div>
+						</a>
+						<a href="" class="service">
+							<div class="service__top">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#dec"></use>
+								</svg>
+							</div>
+							<div class="service__bottom">
+								<h3 class="service__title title title_h3">Hospitality & VIP experiences</h3>
+								<div class="service__text text text_md">
+									Elevating client and guest experiences with premium access, private lounges, and unique
+									benefits.
+								</div>
+							</div>
+						</a>
+						<a href="" class="service">
+							<div class="service__top">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#dec"></use>
+								</svg>
+							</div>
+							<div class="service__bottom">
+								<h3 class="service__title title title_h3">Consulting & strategy </h3>
+								<div class="service__text text text_md">
+									Unlocking the power of sports with strategic partnerships and campaigns that drive real
+									impact.
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="brands section_bottom section">
+				<div class="brands__container">
+					<h2 class="brands__title title_h2 title wow animate__fadeIn">Brands that trust us</h2>
+					<div class="brands__text text">We’ve worked with global powerhouses like FIFA, Hyundai, Samsung, vivo,
+						Qatar National Bank delivering campaigns that drive engagement and loyalty.
+					</div>
+					<div class="brands__items">
+						<div class="brands__item">
+							<img class="ibg" src="img/main/brands/01.webp" alt="Image">
+						</div>
+						<div class="brands__item">
+							<img class="ibg" src="img/main/brands/02.webp" alt="Image">
+						</div>
+						<div class="brands__item _long">
+							<img class="ibg" src="img/main/brands/03.webp" alt="Image">
+						</div>
+						<div class="brands__item">
+							<img class="ibg" src="img/main/brands/04.webp" alt="Image">
+						</div>
+						<div class="brands__item">
+							<img class="ibg" src="img/main/brands/05.webp" alt="Image">
+						</div>
+					</div>
+					<div class="brands__numbers numbers">
+						<div class="numbers__item">
+							<strong>50+</strong>
+							<div class="text text_md">major events covered</div>
+						</div>
+						<div class="numbers__item">
+							<strong>100K+</strong>
+							<div class="text text_md">
+								VIP guests hosted
+							</div>
+
+						</div>
+						<div class="numbers__item">
+							<strong>1M</strong>
+							<div class="text text_md">
+								fan interactions created
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="accent-block">
+				<div class="accent-block__container">
+					<h2 class="accent-block__title title title_h2 wow animate__fadeIn">Join the brands that trust us and let’s <br> create
+						something
+						unforgettable</h2>
+					<a href="mailto:welcome@pitch-sports.com" class="accent-block__link"><i>welcome@pitch-sports.com</i></a>
+				</div>
+			</section>
+			<section class="moments section">
+				<div class="moments__container">
+					<h2 class="moments__title title title_h2 wow animate__fadeIn">Moments that matter</h2>
+					<div class="moments__text text">
+						We believe that the best way to showcase what we do is to <br> present real results. Our past projects
+						include:
+					</div>
+					<div class="moments__items cases">
+						<a href="" class="case">
+							<img src="img/main/moments/01.webp" alt="Image" class="case__img ibg">
+							<div class="case__bottom">
+								<h3 class="case__title title title_h3">FIFA world cup VIP hospitality</h3>
+								<div class="case__text text text_md text_regular">
+									Hosting thousands of top executives, celebrities, and athletes, ensuring unparalleled
+									experiences at one of the world's most prestigious sporting events.
+								</div>
+							</div>
+						</a>
+						<a href="" class="case">
+							<img src="img/main/moments/02.webp" alt="Image" class="case__img ibg">
+							<div class="case__bottom">
+								<h3 class="case__title title title_h3">Olympic games activations </h3>
+								<div class="case__text text text_md text_regular">
+									Developing and executing immersive brand experiences during the Olympic Games, engaging
+									fans and enhancing brand visibility on a global stage.
+								</div>
+							</div>
+						</a>
+						<a href="" class="case">
+							<img src="img/main/moments/03.webp" alt="Image" class="case__img ibg">
+							<div class="case__bottom">
+								<h3 class="case__title title title_h3">Corporate hospitality programs</h3>
+								<div class="case__text text text_md text_regular">
+									Designing and managing exclusive hospitality services for corporate clients at major
+									sporting events, offering tailored experiences that align with brand objectives.
+								</div>
+							</div>
+						</a>
+						<a href="" class="case">
+							<img src="img/main/moments/04.webp" alt="Image" class="case__img ibg">
+							<div class="case__bottom">
+								<h3 class="case__title title title_h3">Fan engagement initiatives</h3>
+								<div class="case__text text text_md text_regular">
+									Creating interactive fan zones and engagement strategies that connect brands with their
+									audiences, fostering loyalty and enhancing the overall event experience.
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="moments__more">
+						<i>See our case studies to explore <br> our work in action</i>
+						<div class="moments__more-btn">
+							<a href="" class="moments__btn button">See more</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__left">
+						<div class="footer__title">
+							Contact us
+						</div>
+						<a href="mailto:welcome@pitch-sports.com" class="footer__mail"><i>welcome@pitch-sports.com</i></a>
+					</div>
+					<div class="footer__right">
+						<ul class="footer__country">
+							<li><a href="">France </a></li>
+							<li><a href="">USA </a></li>
+							<li><a href="">Qatar </a></li>
+							<li><a href="">South Korea </a></li>
+						</ul>
+						<ul class="footer__contacts">
+							<li><a href="tel:+33623962885 ">+33 6 23 96 2885 </a></li>
+							<li><a href="tel:+13059798868">+1 305 979 88 68</a></li>
+							<li><a href="tel:+97477381682">+974 7738 1682</a></li>
+							<li><a href="tel:+821047922018">+82 10 4792 2018</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__text">©Pitch Sports - since 2015</div>
+					<a href="" class="footer__text">Privacy policy</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20250502083436"></script>
+</body>
+
+</html>
